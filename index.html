@@ -46,9 +46,8 @@
     .orbit:before,.orbit:after{content:"";position:absolute;width:13px;height:13px;border-radius:50%;background:#eaa0e9;top:14%;left:17%}
     .orbit:after{top:auto;left:auto;right:9%;bottom:20%;background:#d9b8ff}
     @keyframes spin{to{transform:rotate(360deg)}}
-    .portrait{position:relative;width:min(300px,76vw);aspect-ratio:1;border-radius:44% 44% 36% 36%;background:linear-gradient(145deg,#ffe0f4,#e9d9ff 58%,#f5b9ec);display:grid;place-items:center;overflow:hidden;box-shadow:0 25px 65px rgba(160,65,150,.18);border:9px solid white}
-    .portrait:before{content:"";position:absolute;width:72%;height:72%;border-radius:50%;background:rgba(255,255,255,.28);top:8%;left:14%}
-    .portrait-initials{position:relative;font-size:90px;letter-spacing:-9px;font-weight:800;color:#a100ae;text-shadow:0 8px 22px rgba(161,0,174,.12)}
+    .portrait { position: relative;width: min(375px, 82vw);aspect-ratio: 1; border-radius: 44% 44% 36% 36%; background: #dce3ed;overflow: hidden; box-shadow: 0 25px 65px rgba(160,65,150,.18);border: 9px solid white;}
+    .portrait img {width: 100%; height: 100%;display: block; object-fit: cover;object-position: 75% center;}
     .float-card{position:absolute;background:white;border:1px solid #f5e6f0;border-radius:14px;padding:12px 15px;box-shadow:var(--shadow);font-size:12px;font-weight:700}
     .float-card small{display:block;color:#947f90;font-size:10px;font-weight:500}
     .float-one{top:15%;right:-2%}.float-two{bottom:13%;left:-3%}
@@ -129,6 +128,7 @@
     .socials a{width:38px;height:38px;border-radius:11px;background:white;border:1px solid var(--line);display:grid;place-items:center;color:var(--purple);font-size:12px;font-weight:800}
     .copyright{font-size:10px;margin-top:23px}
     .mobile-nav{display:none}
+    .mobile-nav{display:none}
     @media(max-width:760px){
       .site-header{height:64px}.wrap{width:calc(100% - 40px)}
       .desktop-nav,.header-cta{display:none}.menu-btn{display:block}
@@ -192,7 +192,7 @@
         </div>
         <div class="hero-art" aria-label="Portfolio profile illustration">
           <div class="orbit"></div>
-          <div class="portrait"><span class="portrait-initials"><img src="C:\Users\lovel\Downloads\AZWIN\file_000000001fc48210afd16a00b9d59c61copy.png" alt=""></span></div>
+          <div class="portrait"><span class="portrait-initials"><img src="c:\Users\lovel\Downloads\AZWIN\aswin_portfolio\IMG-20261028-WA0025.jpg.jpeg"alt=""></span></div>
           <div class="float-card float-one">✦ Data &amp; ML<small>Curiosity in every dataset</small></div>
           <div class="float-card float-two">⌘ Developer<small>Building one idea at a time</small></div>
         </div>
